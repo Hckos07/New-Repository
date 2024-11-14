@@ -41,9 +41,26 @@ const TermsAndConditions = () => {
           <li><strong>Product:</strong> It means, individually or collectively as appropriate, Software and Documentation listed on the then-current Price List.</li>
         </ul>
       </div>
-      <div className='mx-auto w-full p-12'>
-        
 
+      {/* Scope Section */}
+      <div className="mx-auto w-full pt-12">
+        <h2 className="text-3xl font-bold text-blue-700 mb-6">Scope</h2>
+        <p className="text-gray-700 text-lg mb-4">
+          These Terms of Use set forth the terms and conditions for Customer’s Purchase / Subscription and use of Products and Services.
+        </p>
+      </div>
+
+      {/* Prohibited Actions Section */}
+      <div className="mx-auto w-full pt-12">
+        <h2 className="text-3xl font-bold text-blue-700 mb-6">Prohibited Actions</h2>
+        <p className="text-gray-700 text-lg mb-4">
+          Tally’s products and services may be used according to these terms, and Customer agrees not to:
+        </p>
+        <ul className="text-gray-700 text-lg space-y-4 list-disc pl-6">
+          <li>Use the Software for any purpose other than Customer’s internal business use.</li>
+          <li>Resell or make available to any third party, without a validly issued reseller certification or distribution rights granted by Tally.</li>
+          <li>Modify, reverse engineer, or decompile the Software except as permitted by law.</li>
+        </ul>
       </div>
     </section>
   );
