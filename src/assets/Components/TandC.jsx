@@ -19,9 +19,9 @@ const TermsAndConditions = () => {
         <div className="max-w-xl text-center md:text-left ml-24 mt-24">
           <h1 className="text-3xl md:text-4xl font-bold text-blue-700 mb-4 md:mb-6">Terms and Conditions</h1>
           <p className="text-gray-700 text-base md:text-lg">
-            These Tally Solutions Software Terms of Use Agreement ("Terms of Use") are entered into by
-            and between Tally Solutions Private Limited, a company registered under laws of India
-            ("Tally") and You ("Customer"), for Products and Services, being sold by TALLY.
+            These Software house world Software Terms of Use Agreement ("Terms of Use") are entered into by
+            and between Software House Private Limited, a company registered under laws of India
+            ("Tally") and You ("Customer"), for Products and Services, being sold by software House.
           </p>
         </div>
       </div>
@@ -30,7 +30,7 @@ const TermsAndConditions = () => {
       <div className="mx-auto w-full pt-12">
         <h2 className="text-3xl font-bold text-blue-700 mb-6">Definitions</h2>
         <ul className="text-gray-700 text-lg space-y-4 list-disc pl-6">
-          <li><strong>Company:</strong> Tally Solutions Private Limited, a company incorporated in the Republic of India.</li>
+          <li><strong>Company:</strong> Software house world Private Limited, a company incorporated in the Republic of India.</li>
           <li><strong>Customer, User, You, Your:</strong> Shall mean any individual, entity, or organization, having entered into any commercial transaction with Tally and whose data is being collected.</li>
           <li><strong>Tally Partners or Suppliers:</strong> Shall mean businesses who are authorized to sell Tally Products and Services by Tally.</li>
           <li><strong>Personal Data, Data:</strong> Refers to all the personal non-anonymized data provided by the Customer.</li>

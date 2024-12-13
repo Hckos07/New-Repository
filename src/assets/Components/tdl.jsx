@@ -16,33 +16,32 @@ const Tdl = () => {
   ];
 
   const products = [
-    { title: "Whatsapp Module", description: "With the help of this Add-on you can print previous outstanding balance in an invoice.",  category: "Audit" },
-    { title: "Auto Backup Option in Tally", description: "This Add-on allows user to print Signature Image instead of manual signature in Invoice.", category: "Statutory" },
-    { title: "Excel To Tally Import", description: "Recreating masters already available in MS Excel is a time consuming job. With our add-on “Import Masters from Excel”, u...", category: "Banking" },
-    { title: "Company Seal and Signature in Print", description: "Do you give a 'double discount' - a discount after a discount? This add-on supports the entry of these discount percenta...", category: "Work Flow Management" },
-    { title: "Multi Document Attach", description: "Do you give a 'double discount' - a discount after a discount? This add-on supports the entry of these discount percenta...", category: "Work Flow Management" },
-    { title: "Sample Salesman Module", description: "Do you give a 'double discount' - a discount after a discount? This add-on supports the entry of these discount percenta...", category: "Work Flow Management" },
-    { title: "Standard Salesman Module", description: "Do you give a 'double discount' - a discount after a discount? This add-on supports the entry of these discount percenta...", category: "Work Flow Management" },
-    { title: "Auto Mobile Module", description: "Do you give a 'double discount' - a discount after a discount? This add-on supports the entry of these discount percenta...", category: "Work Flow Management" },
-    { title: "Email Module", description: "Do you give a 'double discount' - a discount after a discount? This add-on supports the entry of these discount percenta...", category: "Work Flow Management" },
-    { title: "SMS Integration", description: "Do you give a 'double discount' - a discount after a discount? This add-on supports the entry of these discount percenta...", category: "Work Flow Management" },
-    { title: "E-vehicle Retail Module", description: "Do you give a 'double discount' - a discount after a discount? This add-on supports the entry of these discount percenta...", category: "Work Flow Management" },
-    { title: "Transport Module(Basic)", description: "Do you give a 'double discount' - a discount after a discount? This add-on supports the entry of these discount percenta...", category: "Work Flow Management" },
-    { title: "Transport Module(Standard)", description: "Do you give a 'double discount' - a discount after a discount? This add-on supports the entry of these discount percenta...", category: "Work Flow Management" },
-    { title: "Broker Module", description: "Do you give a 'double discount' - a discount after a discount? This add-on supports the entry of these discount percenta...", category: "Work Flow Management" },
-    { title: "Zero balance Debtor Report", description: "Do you give a 'double discount' - a discount after a discount? This add-on supports the entry of these discount percenta...", category: "Work Flow Management" },
-    { title: "User Right Permission", description: "Do you give a 'double discount' - a discount after a discount? This add-on supports the entry of these discount percenta...", category: "Work Flow Management" },
-    { title: "Discount Module or Multi Discount on Sold item", description: "Do you give a 'double discount' - a discount after a discount? This add-on supports the entry of these discount percenta...", category: "Manufacturing" },
-    { title: "Credit Note Tagging in Sales Invoice in bill ADjustment", description: "Do you give a 'double discount' - a discount after a discount? This add-on supports the entry of these discount percenta...", category: "Manufacturing" },
-    { title: "Auto Recipt,Payment Voucher", description: "Do you give a 'double discount' - a discount after a discount? This add-on supports the entry of these discount percenta...", category: "Manufacturing" },
-    { title: "Motor Vehicle Reseller Module", description: "Do you give a 'double discount' - a discount after a discount? This add-on supports the entry of these discount percenta...", category: "Manufacturing" },
-    { title: "Custom Delievery Challan", description: "Do you give a 'double discount' - a discount after a discount? This add-on supports the entry of these discount percenta...", category: "Manufacturing" },
-    { title: "Godown Summart Report", description: "Do you give a 'double discount' - a discount after a discount? This add-on supports the entry of these discount percenta...", category: "Manufacturing" },
-    { title: "Sales Report With Batchwise", description: "Do you give a 'double discount' - a discount after a discount? This add-on supports the entry of these discount percenta...", category: "Manufacturing" },
-    { title: "Multi Company Outstanding Report", description: "Do you give a 'double discount' - a discount after a discount? This add-on supports the entry of these discount percenta...", category: "Voucher Numbering" },
-    { title: "Recycle Bin in Tally Prime", description: "Do you give a 'double discount' - a discount after a discount? This add-on supports the entry of these discount percenta...", category: "Voucher Numbering" },
-    { title: "E-Invoice Alteration Control", description: "Do you give a 'double discount' - a discount after a discount? This add-on supports the entry of these discount percenta...", category: "Voucher Numbering" },
-    // Additional products can be added here with corresponding categories
+    { title: "Whatsapp Module", description: "With the help of this Add-on you can print previous outstanding balance in an invoice.", category: ["Tally Users"] },
+    { title: "Excel to Tally Import", description: "This Add-on allows user to print Signature Image instead of manual signature in Invoice.", category: ["Tally Users"] },
+    { title: "Company Seal and Signature in Print", description: "Recreating masters already available in MS Excel is a time-consuming job. With our add-on “Import Masters from Excel”, u...", category: ["Tally Users"] },
+    { title: "Multi Document Attach", description: "Supports entry of double discounts on sold items.", category: ["Trader", "Wholeseller"] },
+    { title: "google", description: "Transport management module for businesses.", category: ["Transport Business"] },
+    { title: "Transport Module(Basic)", description: "Transport management module for businesses.", category: ["Transport Business"] },
+    { title: "Transport Module(Basic)", description: "Transport management module for businesses.", category: ["Transport Business"] },
+    { title: "Transport Module(Basic)", description: "Transport management module for businesses.", category: ["Transport Business"] },
+    { title: "Transport Module(Basic)", description: "Transport management module for businesses.", category: ["Transport Business"] },
+    { title: "Transport Module(Basic)", description: "Transport management module for businesses.", category: ["Transport Business"] },
+    { title: "Transport Module(Basic)", description: "Transport management module for businesses.", category: ["Transport Business"] },
+    { title: "Transport Module(Basic)", description: "Transport management module for businesses.", category: ["Transport Business"] },
+    { title: "Transport Module(Basic)", description: "Transport management module for businesses.", category: ["Transport Business"] },
+    { title: "Transport Module(Basic)", description: "Transport management module for businesses.", category: ["Transport Business"] },
+    { title: "Transport Module(Basic)", description: "Transport management module for businesses.", category: ["Transport Business"] },
+    { title: "Transport Module(Basic)", description: "Transport management module for businesses.", category: ["Transport Business"] },
+    { title: "Transport Module(Basic)", description: "Transport management module for businesses.", category: ["Transport Business"] },
+    { title: "Transport Module(Basic)", description: "Transport management module for businesses.", category: ["Transport Business"] },
+    { title: "Transport Module(Basic)", description: "Transport management module for businesses.", category: ["Transport Business"] },
+    { title: "Transport Module(Basic)", description: "Transport management module for businesses.", category: ["Transport Business"] },
+    { title: "Transport Module(Basic)", description: "Transport management module for businesses.", category: ["Transport Business"] },
+    { title: "Transport Module(Basic)", description: "Transport management module for businesses.", category: ["Transport Business"] },
+    { title: "Transport Module(Basic)", description: "Transport management module for businesses.", category: ["Transport Business"] },
+    { title: "Transport Module(Basic)", description: "Transport management module for businesses.", category: ["Transport Business"] },
+    { title: "Transport Module(Basic)", description: "Transport management module for businesses.", category: ["Transport Business"] },
+    { title: "Transport Module(Basic)", description: "Transport management module for businesses.", category: ["Transport Business"] },
   ];
 
   const [selectedCategories, setSelectedCategories] = useState([]);
@@ -56,7 +55,7 @@ const Tdl = () => {
 
   // Filter products based on selected categories
   const filteredProducts = selectedCategories.length
-    ? products.filter((product) => selectedCategories.includes(product.category))
+    ? products.filter((product) => product.category.some((cat) => selectedCategories.includes(cat)))
     : products;
 
   return (
@@ -112,7 +111,7 @@ const Tdl = () => {
 
           {/* Product Tabs */}
           <div className="flex space-x-4 mb-6">
-            <button className="px-4 py-2 bg-gray-200 text-gray-700 rounded-md transistionfocus:outline-none border border-blue-700">Silver</button>
+            <button className="px-4 py-2 bg-gray-200 text-gray-700 rounded-md transition focus:outline-none border border-blue-700">Silver</button>
             <button className="px-4 py-2 bg-gray-200 text-gray-700 rounded-md focus:outline-none border border-blue-700">Gold</button>
           </div>
 
@@ -124,12 +123,9 @@ const Tdl = () => {
                 <div key={index} className="bg-white p-4 rounded-lg shadow-md">
                   <h3 className="font-bold text-blue-700">{product.title}</h3>
                   <p className="text-gray-600 mt-2">{product.description}</p>
-                  <p className="text-gray-500 mt-4">{product.sold}</p>
-                  <div className='flex container justify-end mx-2'>
-                    <div className="flex justify-end space-x-4 mt-4">
-                      <button className="text-black border-2 rounded-xl transition transform duration-300 hover:bg-blue-300  border-blue-700 px-4 py-2">Buy Now</button>
-                      <button className="text-black border-2 transition transform duration-300 hover:bg-blue-300 rounded-xl border-blue-700 px-4 py-2">Manual</button>
-                    </div>
+                  <div className="flex justify-end space-x-4 mt-4">
+                    <button className="text-black border-2 rounded-xl transition transform duration-300 hover:bg-blue-300 border-blue-700 px-4 py-2">Buy Now</button>
+                    <button className="text-black border-2 transition transform duration-300 hover:bg-blue-300 rounded-xl border-blue-700 px-4 py-2">Manual</button>
                   </div>
                 </div>
               ))}
