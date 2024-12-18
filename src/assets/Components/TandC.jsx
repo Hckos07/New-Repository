@@ -1,5 +1,5 @@
 import React from 'react';
-import terms from '/Users/hckos/Downloads/softwarehouse/src/assets/images/terms.png';
+import terms from 'src/assets/images/terms.png';
 
 const TermsAndConditions = () => {
   return (
