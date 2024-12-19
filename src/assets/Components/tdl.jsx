@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import banner5 from '../icons/banner5.png';
-import logos from '../icons/logos.png';
+import banner5 from '/Users/hckos/Downloads/softwarehouse/src/icons/banner5.png';
+import logo from '/Users/hckos/Downloads/softwarehouse/src/icons/logos.png';
 
 const Tdl = () => {
   const categories = [
@@ -63,7 +63,7 @@ const Tdl = () => {
       {/* Header */}
       <header className="flex items-center justify-between py-4 px-8 bg-white shadow-md">
         <div className="flex items-center space-x-4">
-          <img src={logos} alt="TallyShop Logo" className="h-20" />
+          <img src={logo} alt="TallyShop Logo" className="h-20" />
           <input
             type="text"
             placeholder="Search add-on"
