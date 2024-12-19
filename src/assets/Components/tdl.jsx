@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import banner5 from '/Users/hckos/Downloads/softwarehouse/src/icons/banner5.png';
-import logo from '/Users/hckos/Downloads/softwarehouse/src/icons/logos.png';
+import banner5 from '/src/assets/icons/banner5.png';
+import logo from '/src/assets/icons/logos.png';
 
 const Tdl = () => {
   const categories = [
