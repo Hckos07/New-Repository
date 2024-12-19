@@ -1,6 +1,7 @@
 {
   "name": "softwarehouse",
   "private": true,
+  "homepage": "https://software-house-3rm76k0uy-abhay-pals-projects-1bdaeb02.vercel.app/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
